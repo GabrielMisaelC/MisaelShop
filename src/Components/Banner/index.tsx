@@ -1,6 +1,6 @@
 import { SafeAreaView, Text, StyleSheet, View } from "react-native";
 
-export default function BannerPromotion(){
+export default function Banner(){
     return(
         <View style={styles.banner}>
              <Text>Banner</Text>
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        marginTop: 40,
+        marginTop: 70,
         marginLeft: 10,
         marginRight: 10,
     }

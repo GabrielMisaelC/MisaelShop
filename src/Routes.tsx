@@ -3,10 +3,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import Login from "./Login";
 import Master from "./Master";
-import Home from "./Home";
-import NewService from "./NewService";
-import Perfil from "./Profile";
-
+import CadastroNewCLient from "./CadastroNewClient";
+import CadastroNewService from "./CadastroNewService";
 
 const AppStack = createStackNavigator();
 
@@ -23,6 +21,8 @@ export default function Routes() {
         component={Login} 
         />
         <AppStack.Screen name="Master" component={Master} />
+        <AppStack.Screen name="CadastroNewService" component={CadastroNewService} />
+        <AppStack.Screen name="CadastroNewClient" component={CadastroNewCLient} />
       </AppStack.Navigator>
     </NavigationContainer>
   );

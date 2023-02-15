@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        marginTop: 40,
+        marginTop: 30,
     },
     lotes: {
         display: 'flex',
@@ -51,5 +51,11 @@ const styles = StyleSheet.create({
         marginLeft: 10,
         borderRadius: 10,
         backgroundColor: '#000',
+    },
+    text: {
+        color: '#000',
+        fontFamily: 'Roboto-Bold',
+        fontSize: 20,
+        paddingTop: 10,
     }
 });

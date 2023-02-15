@@ -4,7 +4,7 @@ import Home from "./Home";
 import NewService from "./NewService";
 import Profile from "./Profile";
 import Notifications from "./Notifications";
-import Search from "./Search";
+import Schedule from "./Schedule";
 import {Entypo, Feather, MaterialIcons} from "@expo/vector-icons";
 import ButtonNew from "./Components/ButtonNew";
 
@@ -15,6 +15,7 @@ export default function RoutesTab() {
   return (
       <Tab.Navigator screenOptions={{ 
          tabBarStyle: {
+          height: 100,
           backgroundColor: '#191970',
           borderWidth: 1,
           borderRadius: 10,
@@ -41,7 +42,7 @@ export default function RoutesTab() {
 
         <Tab.Screen 
         name="Procurar" 
-        component={Search} 
+        component={Schedule} 
         options={{
           tabBarIcon: ({ size, color}) => (
             <MaterialIcons name="date-range" size={size} color={color}/>
