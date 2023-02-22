@@ -40,7 +40,7 @@ const Dropdown: FC<Props> = ({ label, data, onSelect }) => {
 
   const renderItem = ({ item }: any): ReactElement<any, any> => (
     <TouchableOpacity style={styles.item} onPress={() => onItemPress(item)}>
-      <Text>{item.label}</Text>
+      <Text style={styles.text}>{item.label}</Text>
     </TouchableOpacity>
   );
 
@@ -57,6 +57,7 @@ const Dropdown: FC<Props> = ({ label, data, onSelect }) => {
               renderItem={renderItem}
               keyExtractor={(item, index) => index.toString()}
             />
+
           </View>
         </TouchableOpacity>
       </Modal>
@@ -88,29 +89,43 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     flex: 1,
+    fontSize: 20,
+    fontFamily: 'Roboto-Bold',
     textAlign: 'center',
   },
   icon: {
-    marginRight: 10,
+    marginRight: 40,
   },
   dropdown: {
+    alignItems: 'center',
+    justifyContent: 'center',
     position: 'absolute',
-    backgroundColor: '#fff',
-    width: '100%',
+    backgroundColor: '#9370DB',
+    opacity: 1.5,
+    borderRadius: 10,
     shadowColor: '#000000',
     shadowRadius: 4,
     shadowOffset: { height: 4, width: 0 },
     shadowOpacity: 0.5,
   },
   overlay: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
     width: '100%',
     height: '100%',
   },
   item: {
     paddingHorizontal: 10,
     paddingVertical: 10,
-    borderBottomWidth: 1,
+    borderBottomWidth: 2,
   },
+  text: {
+    fontSize: 16,
+    fontFamily: 'Roboto-Bold',
+    textAlign: 'center',
+  }
 });
 
 export default Dropdown;

@@ -7,6 +7,7 @@ import Notifications from "./Notifications";
 import Schedule from "./Schedule";
 import {Entypo, Feather, MaterialIcons} from "@expo/vector-icons";
 import ButtonNew from "./Components/ButtonNew";
+import { LinearGradient } from "expo-linear-gradient";
 
 
 const Tab = createBottomTabNavigator();
@@ -16,16 +17,16 @@ export default function RoutesTab() {
       <Tab.Navigator screenOptions={{ 
          tabBarStyle: {
           height: 100,
-          backgroundColor: '#191970',
+          backgroundColor: '#fff',
           borderWidth: 1,
           borderRadius: 10,
-          borderTopColor: '#ADD8E6',
-          borderColor: '#ADD8E6',
-          marginBottom: 5,
-          marginTop: 5,
+          borderTopColor: '#000',
+          borderColor: '#000',
+          marginBottom: -5,
+          marginTop: 2,
         },
-         tabBarInactiveTintColor: '#708090',
-         tabBarActiveTintColor: '#E0FFFF',
+         tabBarInactiveTintColor: '#C0C0C0',
+         tabBarActiveTintColor: '#8B008B',
          title: '',
          headerShown: false,
          }}>

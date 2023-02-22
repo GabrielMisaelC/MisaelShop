@@ -28,14 +28,22 @@ export default function CadastroNewCLient(){
     const handleCancel = () => {
         navigation.navigate("Master");
     }
+
+    const handleSalve = () => {
+        console.log(name);
+        console.log(email);
+        console.log(cellphone);
+        console.log(cpf);
+        console.log(selectOption);
+    }
     return(
         <SafeAreaView>
             <LinearGradient 
             style={styles.container}
             start={{x:0,y:1}}
             end={{x:1,y:0}}
-            locations={[.5,0.9]}
-            colors={['#191970', '#0000CD']}>
+            locations={[.5,0,0.9]}
+            colors={['#8B008B', '#A020F0', '#A020F0']}>
 
 
             <View style={styles.divTitle}>
@@ -81,7 +89,7 @@ export default function CadastroNewCLient(){
                 </ScrollView>
             </View>
 
-            <OptionButton handleCancel={handleCancel}/>
+            <OptionButton handleCancel={handleCancel} handleSalve={handleSalve}/>
 
             </LinearGradient>
         </SafeAreaView>

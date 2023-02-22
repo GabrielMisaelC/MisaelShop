@@ -36,6 +36,7 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
+        marginLeft: -20,
         marginTop: 30,
     },
     lotes: {

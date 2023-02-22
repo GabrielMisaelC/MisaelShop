@@ -36,14 +36,14 @@ export default function TopHome() {
         start={{x:0,y:1}}
         end={{x:1,y:0}}
         locations={[.2,0.9]}
-        colors={['#191970', '#0000CD', '#00008B']}>
+        colors={['#8B008B', '#A020F0', '#A020F0']}>
 
         <View style={styles.conteinerTopText}>
            <Text style={styles.textTop}>Olá, Gabriel Carvalho</Text>
         </View>
        
         <View style={styles.conteinerTopIcon}>
-           <AntDesign name="logout" size={24} color="white"  style={{paddingTop: 35,}} onPress={logout}/>
+           <AntDesign name="logout" size={24} color="white"  style={{paddingTop: 45,}} onPress={logout}/>
         </View>
     
       </LinearGradient>
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
         color: '#fff',
         fontFamily: 'Roboto-Bold',
         fontSize: 20,
-        paddingTop: 40,
+        paddingTop: 50,
     },
     conteinerTopText: {
         width: '70%',

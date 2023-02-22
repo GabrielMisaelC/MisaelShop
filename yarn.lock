@@ -1055,6 +1055,14 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@callstack/react-theme-provider@^3.0.8":
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/@callstack/react-theme-provider/-/react-theme-provider-3.0.8.tgz#d0d7ac71e422133c5f7b78f4c4aa1bc57f156f50"
+  integrity sha512-5U231sYY2sqQOaELX0WBCn+iluV8bFaXIS7em03k4W5Xz0AhGvKlnpLIhDGFP8im/SvNW7/2XoR0BsClhn9t6Q==
+  dependencies:
+    deepmerge "^3.2.0"
+    hoist-non-react-statics "^3.3.0"
+
 "@egjs/hammerjs@^2.0.17":
   version "2.0.17"
   resolved "https://registry.npmjs.org/@egjs/hammerjs/-/hammerjs-2.0.17.tgz"
@@ -5527,6 +5535,11 @@ react-native-codegen@^0.70.6:
     jscodeshift "^0.13.1"
     nullthrows "^1.1.1"
 
+react-native-currency-input@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-currency-input/-/react-native-currency-input-1.1.0.tgz#2f86e6ad4d47518df0c5ade06f5e0f5afa0aeb11"
+  integrity sha512-TNyqQ98pB6WdLJiEz5NIZWUT1zpzJNBUCGS+5PGO0QCmbssSA/n4zVC7+msX5Z0Wl+iwhpTPsCckDJeRIlxwKg==
+
 react-native-datepicker@^1.7.2:
   version "1.7.2"
   resolved "https://registry.npmjs.org/react-native-datepicker/-/react-native-datepicker-1.7.2.tgz"
@@ -5571,6 +5584,15 @@ react-native-modal-datetime-picker@^14.0.1:
   dependencies:
     prop-types "^15.7.2"
 
+react-native-paper@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-paper/-/react-native-paper-5.2.0.tgz#112c0dd7c5ad9e9da0791c9d0b430af380b326a3"
+  integrity sha512-FfKvfh4nBvetTusiuc1QMuNxXdNai4lthoyD+dNPM03RnIapcjoKHrhCD1EvVi5c1kBSKHrlXQ3OAW/8QCQXNw==
+  dependencies:
+    "@callstack/react-theme-provider" "^3.0.8"
+    color "^3.1.2"
+    use-event-callback "^0.1.0"
+
 react-native-picker-select@^8.0.4:
   version "8.0.4"
   resolved "https://registry.yarnpkg.com/react-native-picker-select/-/react-native-picker-select-8.0.4.tgz#3f7f1f42df69b06e7d2c10338288332a6c40fd10"
@@ -5608,6 +5630,11 @@ react-native-web@~0.18.9:
     normalize-css-color "^1.0.2"
     postcss-value-parser "^4.2.0"
     styleq "^0.1.2"
+
+react-native-x-carousel@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-x-carousel/-/react-native-x-carousel-1.0.1.tgz#3a03956d370f0f211605efa55ce8fa48fc862b26"
+  integrity sha512-HioYKgsW7RS6EZzVlcLK0PUn/2gk1EF1gv1fCydEEBiGnYjxhtuG+ZKphE2Y4VKRIV4OqgSi3uwPUo1wcR3dvQ==
 
 react-native@0.70.5:
   version "0.70.5"
@@ -6698,6 +6725,11 @@ url-parse@^1.5.9:
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
+
+use-event-callback@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/use-event-callback/-/use-event-callback-0.1.0.tgz#29d7ce996802935c5387e7d3b606cf316da3457f"
+  integrity sha512-5fTzY5UEXHMK5UR0NRkUz6TPfWmmX9fO8Tx3SnHrfMPdrQ7Rna0gDBy0r56SP68TwsP9DgwSBzeysCu3A/Z2NA==
 
 use-latest-callback@^0.1.5:
   version "0.1.5"

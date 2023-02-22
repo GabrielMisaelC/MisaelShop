@@ -12,6 +12,8 @@ export default function Home() {
       <ScrollView 
         style={styles.scrool} 
         overScrollMode='never'
+        showsVerticalScrollIndicator={false}
+        showsHorizontalScrollIndicator={false}
         centerContent={true}
         >
           <BannerPromotion/>

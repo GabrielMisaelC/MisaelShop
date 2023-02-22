@@ -46,15 +46,15 @@ export default function Login() {
         start={{x:0,y:1}}
         end={{x:1,y:0}}
         locations={[.2,0.9]}
-        colors={['#191970', '#0000CD', '#00008B']}>
+        colors={['#8B008B', '#A020F0', '#A020F0']}>
 
-      
-       <Fontisto name="playstation" size={100} color="white" />
+       {/* <AntDesign name="windows" size={100} color="white" /> */}
+       {/* <Fontisto name="playstation" size={100} color="white" /> */}
 
       </LinearGradient>
 
       <View style={styles.divLogin}>
-        <Text style={styles.title}>Sony</Text>
+        <Text style={styles.title}>MANEGER</Text>
         <TextInput
           style={styles.input}
           placeholder='Username'
@@ -68,7 +68,7 @@ export default function Login() {
           value={password}
         />
         <TouchableOpacity onPress={() => btn()} style={styles.button}>
-            <Text style={styles.textButton}>Entrar</Text>
+            <Text style={styles.textButton}>ENTER</Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
     marginTop: 40,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: "#191970",
+    backgroundColor: "#8B008B",
     color: '#FFF',
   },
   top: {

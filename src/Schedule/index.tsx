@@ -230,7 +230,7 @@ const styles = StyleSheet.create({
   month: {
     width: '80%',
     marginTop: 50,
-    backgroundColor: '#191970',
+    backgroundColor: '#8B008B',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
